@@ -98,3 +98,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', end
 .button:active .top {
   margin: -70px 0 0 10px;
 }
+
+hr.index_hr {
+  width: 400px;
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.index_hr:before {
+  width: 400px;
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.tag_name {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-style: italic;
+}
